@@ -8,20 +8,27 @@
     <h1>Student Registration</h1>
     <form action="RegistrationServlet" method="post" >
         <div>
+            <label>First Name</label>
             <input type="text" name="firstName" placeholder="First Name" />
         </div>
         <br/> <br/>
         <div>
+            <label>Last Name</label>
             <input type="text" name="lastName" placeholder="Last Name" />
         </div>
         <br/> <br/>
         <div>
+            <label>Email</label>
             <input type="email" name ="email" placeholder="Email" />
         </div>
         <br/> <br/>
         <div>
+            <label>Password</label>
             <input type="password" name ="password" placeholder="Password" />
         </div>
+        <br /> <br/>
+        <input type="checkbox" name="terms" id="terms" />
+        <label for="terms">I agree to the Terms and Conditions</label>
         <br /> <br/>
         <input type="submit" />
     </form>
